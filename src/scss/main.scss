@@ -3,3 +3,86 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: var(--dark-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+  width: 350px;
+  margin: 16px 24px;
+  position: relative;
+  &__img {
+    border: solid 4px #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 88px;
+  }
+  &__header {
+    font-size: 1rem;
+    margin-top: 92px;
+    margin-bottom: 0;
+    &--special {
+      color: var(--dark-grayish-blue);
+    }
+  }
+  &__description {
+    color: var(--dark-grayish-blue);
+    margin-top: 8px;
+    margin-bottom: 42px;
+    font-size: 0.75rem;
+  }
+}
+
+.top__background {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 24px 0;
+  &__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 24px;
+  }
+  &__header {
+    margin: 0 0;
+    font-size: 1rem;
+  }
+  &__description {
+    font-size: 0.75rem;
+    margin: 8px 0;
+    color: var(--dark-grayish-blue);
+  }
+}
