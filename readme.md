@@ -24,7 +24,7 @@ This project is being developed in progress of course Frontend Mentor | Profile 
 
 - HTML 5
 - SASS -SCSS
-- Vanilla JS
+- BEM
 - webpack
 
 ## Setup
