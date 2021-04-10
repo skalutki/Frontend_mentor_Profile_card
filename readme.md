@@ -56,8 +56,8 @@ Project is: in progress, I'm still learning JS and trying to use new knowledge i
 
 ## Sources
 
-This web is inspire by Maciej Korsan and tutorial by [WTF: Co ten frontend](https://cotenfrontend.pl/)
-This web is inspire by Frontend Mentor by [Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+- This web is inspire by Maciej Korsan and tutorial by [WTF: Co ten frontend](https://cotenfrontend.pl/)
+- This web is inspire by Frontend Mentor by [Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
 ## Contact
 
