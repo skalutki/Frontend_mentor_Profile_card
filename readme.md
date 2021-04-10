@@ -1,6 +1,6 @@
 ![cover](gh/cover.png)
 
-# Hompage 2 - webpack
+# Frontend Mentor | Profile card component
 
 ## Tabel of contents
 
