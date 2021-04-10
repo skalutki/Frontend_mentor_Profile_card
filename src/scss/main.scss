@@ -27,6 +27,23 @@ body {
   min-height: 100vh;
 }
 
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.picture__top {
+  position: st;
+  top: -780px;
+  left: -400px;
+  z-index: -2;
+}
+.picture__bottom {
+  position: absolute;
+  bottom: -780px;
+  right: -400px;
+  z-index: -2;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -35,7 +52,7 @@ body {
   background-color: #fff;
   border-radius: 16px;
   width: 350px;
-  margin: 16px 24px;
+  margin: 0 auto;
   position: relative;
   &__img {
     border: solid 4px #fff;
@@ -62,9 +79,13 @@ body {
 .top__background {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  z-index: 20;
 }
 
 .footer {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  padding-top: 32px;
   display: flex;
   justify-content: center;
   align-content: space-between;

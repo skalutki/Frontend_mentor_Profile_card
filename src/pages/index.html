@@ -11,9 +11,53 @@
       href="../assets/icons/favicon-32x32.png"
     />
     <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Title -->
+    <meta
+      property="og:title"
+      content="Frontend Mentor | Profile card component"
+    />
+    <!-- OPTIONAL description. 2-4 sentences. -->
+    <meta
+      property="og:description"
+      content="This project is being developed in progress of course Frontend Mentor | Profile card component. Its purpose is to learn the basics of the frontend and this website was created to show this knowledge in practice"
+    />
+    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+    <meta
+      property="og:url"
+      content="https://github.com/skalutki/Frontend_mentor_Profile_card"
+    />
+    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+    <meta
+      property="og:image"
+      content="https://github.com/skalutki/Frontend_mentor_Profile_card/og-cover.png"
+    />
   </head>
   <body>
     <main class="main">
+      <svg
+        width="978"
+        height="978"
+        xmlns="http://www.w3.org/2000/svg"
+        class="picture__top"
+      >
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse
+          fill="url(#a)"
+          transform="rotate(-135 489 489)"
+          cx="489"
+          cy="489"
+          rx="489"
+          ry="488"
+          fill-rule="evenodd"
+          opacity=".5"
+        />
+      </svg>
       <section class="card">
         <svg
           width="350"
@@ -448,6 +492,29 @@
           </div>
         </footer>
       </section>
+      <svg
+        width="978"
+        height="978"
+        xmlns="http://www.w3.org/2000/svg"
+        class="picture__bottom"
+      >
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse
+          fill="url(#a)"
+          transform="scale(1 -1) rotate(45 1669.55 0)"
+          cx="489"
+          cy="489"
+          rx="489"
+          ry="488"
+          fill-rule="evenodd"
+          opacity=".25"
+        />
+      </svg>
     </main>
   </body>
 </html>
